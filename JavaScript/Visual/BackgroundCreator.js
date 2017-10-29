@@ -284,7 +284,7 @@ var MainMoveStars = MainBackground[4]
 var MainChangeFleckColors = MainBackground[5]
 var MainHasBackground = MainBackground[6]
 
-Body.onresize = function() {
+MainVisualizerAdorn.onresize = function() {
 	ResizeMainVisualizer()
 	ResizeMainBackground()
 	ResizeNextReleaseInfo()
