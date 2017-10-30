@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Gotham-Book;
+    src: url('Fonts/Gotham-Book.otf');
+}
+
+@font-face {
+    font-family: Gotham-Medium;
+    src: url('Fonts/Gotham-Medium.otf');
+}
+
+
+
+body {
+	margin: 0px;
+  overflow: hidden;
+}
+
+div {
+  position: absolute;
+	margin: 0px;
+  overflow: hidden;
+}
+
+div.NoClip {
+  overflow: visible;
+}
+
+canvas {
+  position: absolute;
+	margin: 0px;
+}
+
+img {
+  position: absolute;
+	margin: 0px;
+}
+
+p.BoldText {
+  position: absolute;
+  color: #FFFFFF;
+  font-family: 'Gotham-Medium', 'Raleway', Lato, sans-serif;
+  font-weight: 700;
+  letter-spacing: -5.3px;
+  line-height: 96%;
+  text-transform: uppercase;
+  margin: 0px;
+  white-space: nowrap;
+}
+
+p.RegularText {
+  position: absolute;
+  color: #FFFFFF;
+  font-family: 'Gotham-Book', 'Raleway', Lato, sans-serif;
+  font-weight: 400;
+  letter-spacing: -4px;
+  line-height: 87%;
+  position:absolute;
+  text-transform: uppercase;
+  margin: 0px;
+  white-space: nowrap;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+video {
+  position: absolute;
+  margin: 0px;
+}
+source {
+  position: absolute;
+  margin: 0px;
+}
